@@ -1,5 +1,6 @@
 import "./Navbar.scss";
 import { NavLink } from 'react-router-dom'
+import SignOutBtn from './../SignOutBtn/SignOutBtn';
 
 function Navbar() {
   return (
@@ -10,7 +11,7 @@ function Navbar() {
         </NavLink>
         
         <div className="collapse navbar-collapse" id="navbarMenu">
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav ms-auto me-3">
             <li className="nav-item">
               <NavLink className="nav-link" to="/">Home</NavLink>
             </li>
@@ -19,6 +20,8 @@ function Navbar() {
             </li>
           </ul>
         </div>
+
+        <SignOutBtn />
       </div>
     </div>
   );

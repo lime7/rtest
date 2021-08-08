@@ -1,6 +1,5 @@
 import firebase from "firebase";
 
-// If you're not using Code Sandbox, never hard-code the keys! Add them in your .env file and link them here
 var firebaseConfig = {
   apiKey: "AIzaSyDx25v3GMhIfFvMFlA2BsTeCOqQ6a7yAao",
   authDomain: "reactapp-bc20c.firebaseapp.com",
@@ -10,7 +9,6 @@ var firebaseConfig = {
   appId: "1:512314771847:web:3f01f5928b51af2d8c6b22"
 };
 
-// Initialize Firebase
 let instance;
 
 export default function getFirebase() {
